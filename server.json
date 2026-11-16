@@ -3,7 +3,7 @@
   "name": "online.liftbrain/liftbrain",
   "title": "LiftBrain",
   "description": "AI strength coach: writes your program, reads your logged sets, food and health data, adjusts loads",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://liftbrain.online",
   "repository": {
     "url": "https://github.com/anetesa/liftbrain-mcp",
@@ -22,6 +22,10 @@
     {
       "type": "streamable-http",
       "url": "https://liftbrain.online/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://liftbrain.online/library"
     }
   ]
 }

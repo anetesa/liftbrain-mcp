@@ -42,6 +42,20 @@ workouts: *"How is my bench going? Set the weights for next week."*
 
 Weights are in kilograms in every tool; the app shows kg or lb.
 
+## Public library (no sign-in)
+
+`https://liftbrain.online/library` is a second, public MCP server: the site's high-protein recipes with kcal and
+macros per serving and per 100 g, the guides on training and nutrition in 10 languages, and the exercise catalog.
+Any assistant can use it without an account:
+
+```bash
+claude mcp add --transport http liftbrain-library https://liftbrain.online/library
+```
+
+| Tools |
+| --- |
+| `liftbrain_search_recipes`, `liftbrain_get_recipe`, `liftbrain_top_recipes`, `liftbrain_list_guides`, `liftbrain_get_guide`, `liftbrain_find_exercise` |
+
 ## Privacy
 
 The server acts only as the signed-in user and can read and write only that user's data. Accounts and all their data
