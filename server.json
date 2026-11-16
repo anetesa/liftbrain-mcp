@@ -3,12 +3,25 @@
   "name": "online.liftbrain/liftbrain",
   "title": "LiftBrain",
   "description": "AI strength coach: writes your program, reads your logged sets, food and health data, adjusts loads",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://liftbrain.online",
+  "repository": {
+    "url": "https://github.com/anetesa/liftbrain-mcp",
+    "source": "github"
+  },
   "icons": [
-    { "src": "https://liftbrain.online/logo.png", "mimeType": "image/png", "sizes": ["512x512"] }
+    {
+      "src": "https://liftbrain.online/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
   ],
   "remotes": [
-    { "type": "streamable-http", "url": "https://liftbrain.online/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://liftbrain.online/mcp"
+    }
   ]
 }
